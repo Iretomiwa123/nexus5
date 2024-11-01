@@ -1,0 +1,181 @@
+.hero {
+  position: relative;
+  background-image: url('../images/_ARM2826\ 1.png');
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(240, 165, 0, 0.15);
+}
+
+#hero h1 {
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 100px;
+}
+
+#hero p {
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 100px;
+}
+
+.donate-tab .nav-item a {
+  color: #333333;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.donate-tab .nav-item a.active {
+  background: transparent;
+  text-decoration: underline;
+}
+
+.tab-content p {
+  font-size: 1rem;
+  color: #666666;
+}
+
+.donation-section {
+  color: #333;
+  margin-bottom: 20px;
+  padding: 20px 100px;
+}
+
+.donation-section h3 {
+  color: #38A4C1;
+}
+
+.donation-section p,
+.donation-section ul li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.donation-section ul {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.donation-section ul li i {
+  color: #38A4C1;
+  font-size: 1.2rem;
+  margin-right: 12px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.d-flex img {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+.faq-section {
+  padding: 20px;
+}
+
+.faq-section h3 {
+  color: #38A4C1;
+  margin-bottom: 20px;
+}
+
+details {
+  background-color: #DFF5FB;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.faq-section summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: #38A4C1;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.faq-section p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 10px;
+  color: #666666;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  #hero h1 {
+      font-size: 2rem;
+  }
+
+  #hero p {
+      font-size: 1rem;
+  }
+
+  .donation-section,
+  .faq-section {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+      height: 400px;
+  }
+
+  #hero h1 {
+      font-size: 1.75rem;
+      padding: 5px 10px;
+  }
+
+  #hero p {
+      font-size: 1rem;
+      padding: 5px 10px;
+  }
+
+  .donate-tab .nav-item a {
+      font-size: 1rem;
+  }
+
+  .tab-content p,
+  .donation-section ul li,
+  .faq-section p {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero h1 {
+      font-size: 1.5rem;
+  }
+
+  .donate-tab .nav-item a {
+      font-size: 0.9rem;
+  }
+
+  .d-flex {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .faq-section summary {
+      font-size: 0.9rem;
+  }
+}

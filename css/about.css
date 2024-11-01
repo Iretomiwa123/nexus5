@@ -1,0 +1,194 @@
+/* Hero Section */
+.hero {
+  position: relative;
+  background-image: url('../images/Group\ 11.png');
+  height: 600px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+#hero h1 {
+  text-align: center;
+  color: #FFE100;
+  text-decoration: underline;
+}
+
+#hero p {
+  font-size: 32px;
+}
+#hero p a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+#hero p a:hover {
+  color: #ffe100;
+}
+
+
+.visioner {
+  padding: 40px 5%;
+  display: flex;
+  
+}
+
+.visioner h3 {
+  color: #38A4C1;
+}
+
+.visioner p {
+  font-size: 20px;
+  color: #666666;
+  max-width: 800px;
+}
+
+.vmission-tab .nav-item a {
+  color: #333333;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.vmission-tab .nav-item a.active {
+  background: transparent;
+  text-decoration: underline;
+}
+
+.tab-content p {
+  font-size: 20px;
+  color: #666666;
+  line-height: 1.6;
+}
+
+.vmission {
+  color: #333;
+  margin-bottom: 20px;
+  padding: 20px 5%;
+  text-align: center;
+}
+
+.donate-img {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-image: url("../images/_ARM2572\ 1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  padding: 20px 2%;
+  gap: 10px; 
+}
+
+.tutor {
+  border-radius: 6px;
+  background-color: rgba(132, 217, 239, 0.26); 
+  box-shadow: 0 8px 10px rgba(132, 217, 239, 0.5); 
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  max-width: 270px;
+}
+
+.tutor img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.tutor h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.tutor p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.icons ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icons ul li a {
+  font-size: 1.2rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.icons ul li a:hover {
+  color: #38A4C1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero {
+    height: 40vh;
+    padding: 10px;
+  }
+
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #hero p a {
+    font-size: 1rem;
+  }
+
+  .visioner {
+    flex-direction: column;
+  }
+
+  .visioner img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .vmission {
+    padding: 20px;
+  }
+
+  .vmission-tab .nav-item a {
+    font-size: 1.2rem;
+  }
+
+  .tab-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+
+  #hero p a {
+    font-size: 0.9rem;
+  }
+  .vp{
+    height: 50vh;
+  }
+  .visioner p,
+  .tab-content p {
+    font-size: 16px;
+  }
+
+  .tutor {
+    flex: 1 1 100%;
+  }
+}

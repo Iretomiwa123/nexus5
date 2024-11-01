@@ -1,0 +1,158 @@
+/* General Styles */
+.hero {
+    position: relative;
+    background-image: url('../images/_ARM2672 1.png');
+    height: 600px; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(251, 61, 11, 0.20);
+}
+
+#hero h1 {
+    color: #ffffff;
+    padding: 10px 100px;
+}
+
+#hero p {
+    font-size: 32px;
+    color: #ffffff;
+    padding: 10px 100px;
+}
+
+
+.options {
+    text-align: center;
+    padding: 20px;
+}
+
+.programme-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(56, 164, 193, 0.3);
+    margin: 10px;
+    flex: 0 1 45%;
+    transition: transform 0.3s;
+    text-align: left;
+}
+
+.programme-card h4 {
+    color: #38A4C1;
+}
+
+.programme-card p {
+    color: #666666;
+    font-size: 1rem;
+}
+
+.btn1 {
+    text-decoration: none;
+    color: white;
+    background-color: #38A4C1;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Curriculum Section */
+.curriculum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.curriculum-list {
+    flex: 1;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.curriculum-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.curriculum-list li {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666666;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.curriculum-list li i {
+    margin-right: 10px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .programme-card {
+        flex: 0 1 100%;
+    }
+
+    #hero h1 {
+        font-size: 36px;
+    }
+
+    #hero p {
+        font-size: 24px;
+    }
+
+    .curriculum-list {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 400px;
+    }
+
+    #hero h1, #hero p {
+        padding: 5px 10px;
+    }
+
+    .programme-card {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .curriculum {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #hero h1 {
+        font-size: 1.5rem;
+    }
+
+    #hero p {
+        font-size: 0.875rem;
+    }
+    
+    .programme-card h4, .programme-card p {
+        font-size: 0.875rem;
+    }
+}
