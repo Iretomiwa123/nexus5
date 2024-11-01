@@ -90,7 +90,7 @@
 }
 
 .faq-section {
-  padding: 20px;
+  padding: 20px 100px;
 }
 
 .faq-section h3 {
@@ -176,4 +176,5 @@ details {
   .faq-section summary {
       font-size: 0.9rem;
   }
+
 }

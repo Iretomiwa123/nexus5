@@ -52,8 +52,9 @@ h5 { font-size: 18px; }
 }
 .footer ul li a:hover {
     color: #FFE100;
-    text-decoration: underline;
+    transform: scale(1.05);
 }
+
 
 footer .footer hr {
     border: 1px solid #38A4C1;
@@ -76,9 +77,7 @@ footer .footer hr {
         text-align: center;
         justify-content: center;
     }
-    .footer ul li, .footer ul li a, .footer p {
-        font-size: 14px;
-    }
+    
     .navbar-brand img {
         height: 40px;
     }
