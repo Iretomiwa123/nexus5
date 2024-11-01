@@ -14,11 +14,12 @@
 #hero h1 {
   text-align: center;
   color: #FFE100;
-  text-decoration: underline;
+  font-weight: 700;
 }
 
 #hero p {
   font-size: 32px;
+  font-weight: 500;
 }
 #hero p a {
   text-decoration: none;
@@ -142,10 +143,6 @@
     padding: 10px;
   }
 
-  #hero h1 {
-    font-size: 2rem;
-  }
-
   #hero p a {
     font-size: 1rem;
   }
@@ -174,11 +171,11 @@
 
 @media (max-width: 576px) {
   #hero h1 {
-    font-size: 1.8rem;
+    font-size: 32px;
   }
 
-  #hero p a {
-    font-size: 0.9rem;
+  #hero p  a{
+    font-size: 24px;
   }
   .vp{
     height: 50vh;

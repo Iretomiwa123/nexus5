@@ -22,6 +22,7 @@
   text-align: center;
   color: #ffffff;
   padding: 10px 100px;
+  font-weight: 700;
 }
 
 #hero p {
@@ -29,6 +30,7 @@
   text-align: center;
   color: #ffffff;
   padding: 10px 100px;
+  font-weight: 500;
 }
 
 .donate-tab .nav-item a {
@@ -121,13 +123,6 @@ details {
 
 /* Media Queries */
 @media (max-width: 1200px) {
-  #hero h1 {
-      font-size: 2rem;
-  }
-
-  #hero p {
-      font-size: 1rem;
-  }
 
   .donation-section,
   .faq-section {
@@ -141,12 +136,12 @@ details {
   }
 
   #hero h1 {
-      font-size: 1.75rem;
+      font-size: 36px;
       padding: 5px 10px;
   }
 
   #hero p {
-      font-size: 1rem;
+      font-size: 24px;
       padding: 5px 10px;
   }
 
@@ -163,7 +158,10 @@ details {
 
 @media (max-width: 576px) {
   #hero h1 {
-      font-size: 1.5rem;
+      font-size: 32px;
+  }
+  #hero p{
+    font-size: 20px;
   }
 
   .donate-tab .nav-item a {

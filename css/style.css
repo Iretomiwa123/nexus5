@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .btn1, .btn2 {
@@ -71,9 +72,12 @@ footer .footer hr {
 }
 
 @media (max-width: 576px) {
+    .footer {
+        text-align: center;
+        justify-content: center;
+    }
     .footer ul li, .footer ul li a, .footer p {
         font-size: 14px;
-        text-align: center;
     }
     .navbar-brand img {
         height: 40px;
